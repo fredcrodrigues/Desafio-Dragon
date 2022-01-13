@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Desafio DRAGONS  - CRUD (Sincred)
 
 O projeto está desenvolvido em React JS com Next Js. O sistema Dragons possibilita realizar o
-Cadastro, Alteração e Exclusão de um dragão! Na qual é possivel seleiconar o tipo de dragão de sua preferencia. 
+Cadastro, Alteração e Exclusão de um dragão! Possiblitando a seleção do tipo de dragão de sua preferencia. 
 
 No projeto não utlizamos, nenhum tipo de framework CSS como booststrap, tailwind e etc.
 Existe um Login de acesso e senha padrão: 'admin' e 'admin'.
