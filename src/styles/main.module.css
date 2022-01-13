@@ -1,0 +1,134 @@
+.container {
+    padding: 0 2rem;
+    /*background: linear-gradient(60deg, #CF5326  , #DA3F56) no-repeat;
+    background-size: cover;
+    background-position: center;*/
+  }
+  
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.title{
+  /*margin: 0;*/
+  line-height: 1.15;
+  font-size:2rem;  
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.title a{
+    color: #0096B8 ;
+  
+}
+.title b{
+  color: #B1437F;
+}
+.button button{
+  background-color: #4BC086;
+  color: #fff;
+  border-radius: 100px;
+  border: 1px solid #4BC086;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 2rem;
+  padding:0.7rem;
+  text-align: center;
+}
+.button button:hover{
+  background-color: #008954;
+  color: #fff;
+ 
+}
+
+.table{
+  width: 60vw;
+  padding: 1rem;
+}
+
+
+.table tbody tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+   
+}
+
+
+.table tbody tr button{
+    margin-left: 0.5rem;
+}
+
+.table_td_button_del{
+    
+  background-color: transparent;
+  color: #C82822;
+  border: 1px solid #C82822;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding:0.5rem;
+  text-align: center;
+
+}
+
+.table_td_button_del:hover{
+    background-color: #C82822;
+    color: #ffff;
+    border: 1px solid #C82822;
+
+}
+.table_td_button_up{
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    color: #298AC0;
+    border: 1px solid #298AC0;
+    transition-duration: 0.2s;
+    padding:0.5rem;
+}
+
+.table_td_button_up:hover{
+    background-color: #298AC0;
+    color: #fff;
+    border: 1px solid #298AC0;
+
+}
+.table_td_button_inf{
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+  color: #344A53;
+  border: 1px solid #344A53;
+  transition-duration: 0.2s;
+  padding:0.5rem;
+}
+
+.table_td_button_inf:hover{
+  background-color: #344A53;
+  color: #fff;
+  border: 1px solid #344A53;
+}
+
+
+
+
+
+
+.tableContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;  
+}
+@media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+  }

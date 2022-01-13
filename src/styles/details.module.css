@@ -1,0 +1,34 @@
+.container {
+    padding: 0 2rem;
+    /*background: linear-gradient(60deg, #CF5326  , #DA3F56) no-repeat;
+    background-size: cover;
+    background-position: center;*/
+  }
+  
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+  line-height: 1.15;
+  font-size:2rem;  
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.title a{
+    color:#A1EE87;
+
+}
+
+.details a{
+    background-color: #3EDCA8;
+    color: #fff;
+    padding: 0.2rem;
+    border-top-right-radius: 20px 20px;
+}
