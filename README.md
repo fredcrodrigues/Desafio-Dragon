@@ -37,6 +37,10 @@ Um seleção de palhetas de cores foi selecionada conforme na Guia abaixo, para 
     - #CB6457
 
 ## Tela de Login
+![ScreeShot](https://github.com/fredcrodrigues/Desafio-Dragon/blob/main/img/login.png)
 
+## Tela Principal
+
+![ScreeShot](https://github.com/fredcrodrigues/Desafio-Dragon/blob/main/img/main.png)
 
 
