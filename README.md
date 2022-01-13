@@ -20,7 +20,20 @@ Abrir  [http://localhost:3000](http://localhost:3000)  no seu navegador para ver
 
 ## Versão produção
 
-O desafio pode ser iniciado usando npm run start ou next start para a versão de produção.
+O desafio pode ser iniciado usando para a versão de produção.
+
+A versão de produção pode ser configurada usando
+
+```bash
+    npm run build
+```
+E depois pode se startado com o 
+
+```bash 
+npm run start
+# or 
+next start 
+```
 
 ## API
 
