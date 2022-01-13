@@ -17,6 +17,11 @@ yarn dev
 ```
 Abrir  [http://localhost:3000](http://localhost:3000)  no seu navegador para ver o resultado
 
+
+## Versão produção
+
+O desafio pode ser iniciado usando npm run start ou next start para a versão de produção.
+
 ## API
 
 Os dados são salvos em um arquivo JSON.
