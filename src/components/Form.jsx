@@ -1,12 +1,12 @@
-import { useRouter } from "next/router"
 import { useForm } from "react-hook-form"
-import styles from "../styles/form.module.css"
 import { function_  } from "../utils/addEdit-dragon"
+import Router from "next/router"
+import styles from "../styles/form.module.css"
 
 export default function Form(props){
     
    const {register, handleSubmit, formState:{errors} } = useForm(props.defaultvalues)
-   const router = useRouter()
+   //const router = useRouter()
    
    function onsubmit(data){
         return props.id ?  function_.onsubmit_up(props.id, data) : function_.onsubmit_add(data)
@@ -47,7 +47,7 @@ export default function Form(props){
 
                 <div className={styles.form_input_submit}>
                     <div><input className={styles.input_save}type="submit"  value="save"/></div>
-                    <div><input className={styles.input_cancel}type="submit" onClick = { () => router.push('/main')} value="cancel"/></div>
+                    <div><input className={styles.input_cancel}type="submit" onClick = { () => Router.push('/main')} value="cancel"/></div>
                 </div>
                    
                 

@@ -1,7 +1,7 @@
 import { helpers } from "../../helpers/data-dragons"
 
 
-export default function(req, resp){
+export default function handler(req, resp){
 
 
     if(req.method == 'GET'){
@@ -12,7 +12,7 @@ export default function(req, resp){
         return create(req)
     }  
     
-    if(!resp.status(205)){
+    if(!resp.status(200)){
         return resp.status(405)
     }
     

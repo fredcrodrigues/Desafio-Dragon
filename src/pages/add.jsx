@@ -1,7 +1,7 @@
 import Form from "../components/Form"
 import styles from "../styles/main.module.css"
 
-export default function pageMain(){
+export default function Add(){
    
    
     return(

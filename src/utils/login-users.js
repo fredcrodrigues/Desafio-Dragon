@@ -23,6 +23,6 @@ async function valUsers(_data, form){
     
     const users =  _data.find(x => x.Nome == form.Nome && x.Password == form.Password)
     
-    users?  Router.push('main') : alert('dados Incorreto')
+    users?  Router.push('/main') : alert('dados Incorreto')
 
 }

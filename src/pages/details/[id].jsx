@@ -1,16 +1,15 @@
-import {useRouter} from "next/router"
 import {useState, useEffect} from "react/"
 import { Async } from "../../utils/helpers-dragons"
 import styles from "../../styles/details.module.css"
+import Router from "next/router"
 
 
+export default function Details(){
 
-export default function details(){
-
-    const router = useRouter()   
+    //const router = useRouter()   
     const [dragons, setDragons] = useState([])
     
-    useEffect(()=> { Async.getId(router.query.id).then( data => setDragons(data)) }, [])
+    useEffect(()=> { Async.getId(Router.query.id).then( data => setDragons(data)) }, [])
  
     return (
 

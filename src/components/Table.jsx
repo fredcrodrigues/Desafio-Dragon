@@ -2,11 +2,11 @@ import { useState, useEffect } from "react"
 import {FaEdit, FaMinusCircle, FaInfoCircle} from 'react-icons/fa'
 import {Async} from "../utils/helpers-dragons"
 import styles from "../styles/main.module.css"
-import  {useRouter}  from "next/router"
+import  Router  from "next/router"
 
 export default function Main(){
 
-    const router = useRouter()
+    //const router = useRouter()
     const [dragons, setDragons] = useState([])
 
     //obter dados
@@ -38,9 +38,9 @@ export default function Main(){
                         
                             <div className='table-td-nome'>{dragon.Name}</div>
                             <div className='table-td-button'>
-                                <button className={styles.table_td_button_up}  onClick={() => router.push("edit/" +  dragon.id)}><FaEdit/></button>
+                                <button className={styles.table_td_button_up}  onClick={() => Router.push("/edit/" +  dragon.id)}><FaEdit/></button>
                                 <button className={styles.table_td_button_del}  onClick={() => deleteDragon(dragon.id)}><FaMinusCircle/></button>
-                                <button className={styles.table_td_button_inf}  onClick={() => router.push("/details/" +  dragon.id)}><FaInfoCircle/></button>
+                                <button className={styles.table_td_button_inf}  onClick={() => Router.push("/details/" +  dragon.id)}><FaInfoCircle/></button>
                             </div>
                         
                     

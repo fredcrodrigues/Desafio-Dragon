@@ -7,7 +7,7 @@ export default function Login(){
    const {register, formState:{ errors }, handleSubmit} = useForm()
    
 
-   const onsubmit = (data) => async.getAll(data).then(users => async.valUsers(users, data))
+   const onsubmit = (data) => async.getAll().then(users => async.valUsers(users, data))
 
    
 

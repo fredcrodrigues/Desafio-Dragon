@@ -21,7 +21,7 @@ function getAll(resp){
 function getId(id, resp){
     
     const dragon = dragons.find(x => x.id.toString() == id.toString())
-    console.log(dragon)
+   
     return resp.status(200).json(dragon)
 }
 

@@ -1,15 +1,15 @@
-import {useRouter} from "next/router"
 import {FaPlus} from 'react-icons/fa'
+import Router from "next/router"
 import Table from "../components/Table"
 import styles from '../styles/main.module.css'
 
-export default function PageList(){
+export default function Main(){
 
   
-    const router = useRouter()
+    //const router = useRouter()
   
     return(
-    <>
+   
     
     <div className={styles.container}>
         <div className={styles.main}>
@@ -17,7 +17,7 @@ export default function PageList(){
                  <h1>Crie o Seu  o <a>Dragão!</a></h1>
             </div>
             <div className={styles.button}>
-                <button onClick={() => router.push('/add')}>Add <FaPlus size={10}/></button>
+                <button onClick={() => Router.push('add')}>Add <FaPlus size={10}/></button>
             </div>
             
             <div className={styles.tableContent}>
@@ -26,6 +26,6 @@ export default function PageList(){
         </div>
     </div>
 
-    </>
+
     )
 }
